@@ -21,3 +21,6 @@ Example of HTML file with Javascript that request for location access and pushes
  * Start listening using netcat, example to listen on port 5555 `sudo nc -klv 5555`
  * Send the Object URL to the target. If the target open the link and accept to share locations you will see something like this
  ![image](https://user-images.githubusercontent.com/14998326/153466555-3b11ad38-5f71-464a-9822-21e2462c1dcf.png)
+ * You can search the Coordinates in Google Map and get the results on the map! 
+ ![image](https://user-images.githubusercontent.com/14998326/153466825-bfc25d1f-9985-4eba-abdc-b59c14a8c3ff.png)
+
